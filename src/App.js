@@ -38,7 +38,7 @@ function App() {
                 <Flex direction={'column'} align={'center'} gap={'0.5rem'}>
                   <FormControl>
                     <Flex direction={'column'} align={'center'} gap={'0.5rem'}>
-                      <Heading margin={'0.5rem'} size={'md'}><Link color={'blue.400'} href='https://en.wikipedia.org/wiki/QR_code' target='_blank'>QUICK RESPONSE</Link> CODE GENERATOR</Heading>
+                      <Heading margin={'0.5rem'} size={'md'}><Link color={'blue.500'} href='https://en.wikipedia.org/wiki/QR_code' target='_blank'>QUICK RESPONSE</Link> CODE GENERATOR</Heading>
                       <Input value={input} onChange={e => setInput(e.target.value)} type='text' placeholder='Insert text here...' />
                     </Flex>
                   </FormControl>
